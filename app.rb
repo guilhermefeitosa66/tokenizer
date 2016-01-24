@@ -32,3 +32,17 @@ end
 
 # imprime lista do resultado da busca das palavras
 p words_found
+
+
+# cria arquivo ARFF
+File.open('sample.arff', 'w') do |file|
+  file.puts "@RELATION sample.\n"
+  file.puts "\n"
+  file.puts "@ATTRIBUTE tempo {sol, nublado, chuva}\n"
+  file.puts "@ATTRIBUTE temperatura real\n"
+  file.puts "@ATTRIBUTE umidade real\n"
+  file.puts "@ATTRIBUTE vento {sim, nao}\n"
+  file.puts "@ATTRIBUTE classe {sim, nao}\n"
+  file.puts "\n"
+  file.puts "@data\n"
+end

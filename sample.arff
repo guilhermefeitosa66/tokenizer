@@ -1,0 +1,9 @@
+@RELATION sample.
+
+@ATTRIBUTE tempo {sol, nublado, chuva}
+@ATTRIBUTE temperatura real
+@ATTRIBUTE umidade real
+@ATTRIBUTE vento {sim, nao}
+@ATTRIBUTE classe {sim, nao}
+
+@data
